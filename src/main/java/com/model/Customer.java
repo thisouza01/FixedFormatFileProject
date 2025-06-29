@@ -3,11 +3,11 @@ package src.main.java.com.model;
 import java.math.BigDecimal;
 
 public class Customer {
-    private int id;
+    private String id;
     private String name;
     private double balance;
 
-    public Customer(int id, String name, double balance){
+    public Customer(String id, String name, double balance){
         this.id = id;
         this.name = name;
         this.balance = balance;
