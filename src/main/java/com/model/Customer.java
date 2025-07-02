@@ -1,7 +1,5 @@
 package src.main.java.com.model;
 
-import java.math.BigDecimal;
-
 public class Customer {
     private String id;
     private String name;
@@ -14,6 +12,7 @@ public class Customer {
     }
 
     // getters
+    public String getId() { return id; }
 
     public String getName(){
         return name;
@@ -24,6 +23,7 @@ public class Customer {
     }
 
     // setters
+    public void setId() { this.id = id; }
 
     public void setName(){
         this.name = name;
